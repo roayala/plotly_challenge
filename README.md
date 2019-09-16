@@ -46,9 +46,6 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 - You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
 
-![Example Dashboard Page](Images/dashboard_part1.png)
-![Example Dashboard Page](Images/dashboard_part2.png)
-
 ## Step 2 - Heroku
 
 Deploy your Flask app to Heroku.
@@ -68,8 +65,6 @@ The following task is completely optional and is very advanced.
 - You will need to modify the example gauge code to account for values ranging from 0 - 9.
 
 - Update the chart whenever a new sample is selected.
-
-![Weekly Washing Frequency Gauge](Images/gauge.png)
 
 ---
 
