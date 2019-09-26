@@ -21,7 +21,7 @@ function buildMetadata(sample) {
     });
 }
 
-const slice = firstObs => {
+const slice10 = firstObs => {
     return firstObs.slice(0, 10);
 };
 
@@ -57,9 +57,9 @@ function buildCharts(sample) {
         // HINT: You will need to use slice() to grab the top 10 sample_values,
         // otu_ids, and labels (10 each).
         let pieChart = [{
-            values: slice(sampleValues),
-            labels: slice(otuIds),
-            hovertext: slice(otuLabels),
+            values: slice10(sampleValues),
+            labels: slice10(otuIds),
+            hovertext: slice10(otuLabels),
             hoverinfo: "hovertext",
             type: "pie"
         }];
